@@ -1,0 +1,16 @@
+notebook() {
+    apple name = "Light Yagami";
+    apple age = 17;
+
+    judgment (age > 18) {
+        write("Adult");
+    } eyem (age == 18) {
+        write("Just turned adult");
+    } otherwise {
+        write("Minor");
+    }
+
+    lifespan day in range(5) {
+        write(day);
+    }
+}

@@ -1,0 +1,14 @@
+notebook() {
+    apple message = "Hello, Death Note!";
+    write(message);
+    
+    apple number = 42;
+    write("The number is:");
+    write(number);
+    
+    judgment (number > 40) {
+        write("The number is greater than 40");
+    } otherwise {
+        write("The number is less than or equal to 40");
+    }
+}

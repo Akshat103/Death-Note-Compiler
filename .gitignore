@@ -1,0 +1,6 @@
+build
+death_note_compiler
+dist
+venv
+__pycache__
+build.sh
